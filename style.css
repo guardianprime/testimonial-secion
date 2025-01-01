@@ -84,15 +84,15 @@ main {
 .two h2,
 .two h1,
 .four h1,
-.four p {
+.four h2 {
   color: hsl(0, 0%, 100%);
 }
 
-.one h5,
+.one h3,
 .one p,
-.two h5,
+.two h3,
 .two p,
-.four h5,
+.four h3,
 .four p {
   color: hsl(0, 0%, 81%);
 }
@@ -105,10 +105,18 @@ main {
 }
 
 .three p,
-.three h5,
+.three h3,
 .five p,
-.five h5 {
+.five h3 {
   color: hsl(217, 19%, 35%);
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1rem;
 }
 
 .profile-wrapper {
