@@ -23,7 +23,7 @@ main {
   border-radius: 10px;
 }
 
-.child p:first-of-type {
+.child h1 {
   font-weight: 700;
   font-size: 1.3rem;
   margin-bottom: 15px;
@@ -42,7 +42,7 @@ main {
   background-image: url("./images/bg-pattern-quotation.svg");
   top: 0;
   z-index: -1;
-  right: 50px;
+  right: 100px;
   width: 120px;
   height: 120px;
 }
@@ -80,33 +80,33 @@ main {
 }
 
 .one h4,
-.one p:first-of-type,
+.one h1,
 .two h4,
-.two p:first-of-type,
-.four h4,
-.four p:first-of-type {
+.two h1,
+.four h1,
+.four p {
   color: hsl(0, 0%, 100%);
 }
 
 .one h5,
-.one p:nth-of-type(2),
+.one p,
 .two h5,
-.two p:nth-of-type(2),
+.two p,
 .four h5,
-.four p:nth-of-type(2) {
+.four p {
   color: hsl(0, 0%, 81%);
 }
 
-.three p:first-of-type,
+.three h1,
 .three h4,
-.five p:first-of-type,
+.five h1,
 .five h4 {
   color: hsl(219, 29%, 14%);
 }
 
-.three p:nth-of-type(2),
+.three p,
 .three h5,
-.five p:nth-of-type(2),
+.five p,
 .five h5 {
   color: hsl(217, 19%, 35%);
 }
