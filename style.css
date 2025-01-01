@@ -30,8 +30,33 @@ main {
 }
 
 .one {
-  background-color: hsl(263, 55%, 52%);
   grid-area: one;
+  background-color: transparent;
+  position: relative;
+}
+
+.one::before {
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-image: url("./images/bg-pattern-quotation.svg");
+  top: 0;
+  z-index: -1;
+  right: 50px;
+  width: 120px;
+  height: 120px;
+}
+
+.one::after {
+  background-color: hsl(263, 55%, 52%);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 
 .two {
