@@ -79,9 +79,9 @@ main {
   grid-area: five;
 }
 
-.one h4,
+.one h2,
 .one h1,
-.two h4,
+.two h2,
 .two h1,
 .four h1,
 .four p {
@@ -98,9 +98,9 @@ main {
 }
 
 .three h1,
-.three h4,
+.three h2,
 .five h1,
-.five h4 {
+.five h2 {
   color: hsl(219, 29%, 14%);
 }
 
