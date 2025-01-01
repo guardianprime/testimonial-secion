@@ -109,7 +109,17 @@ main {
   color: hsl(228, 45%, 44%);
 }
 
+@media (min-width: 900px) and (max-width: 1200px) {
+  main {
+    width: 90%;
+  }
+}
+
 @media (min-width: 900px) {
+  .name-wrapper {
+    margin-inline: 5px;
+  }
+
   main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -117,7 +127,12 @@ main {
     grid-template-areas:
       "one one two five"
       "three four four five";
-    width: 80%;
     margin: 100px auto 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 80%;
   }
 }
