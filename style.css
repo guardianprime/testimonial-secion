@@ -1,7 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Barlow Semi Condensed", serif;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.child {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.child p:first-of-type {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.one {
+  background-color: hsl(263, 55%, 52%);
+}
+
+.two {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.three,
+.five {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.four {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.one h4,
+.one p:first-of-type,
+.two h4,
+.two p:first-of-type,
+.four h4,
+.four p:first-of-type {
+  color: hsl(0, 0%, 100%);
+}
+
+.one h5,
+.one p:nth-of-type(2),
+.two h5,
+.two p:nth-of-type(2),
+.four h5,
+.four p:nth-of-type(2) {
+  color: hsl(0, 0%, 81%);
+}
+
+.three p:first-of-type,
+.three h4,
+.five p:first-of-type,
+.five h4 {
+  color: hsl(219, 29%, 14%);
+}
+
+.three p:nth-of-type(2),
+.three h5,
+.five p:nth-of-type(2),
+.five h5 {
+  color: hsl(217, 19%, 35%);
+}
+
+.profile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.name-wrapper {
+  width: 70%;
+}
+
+.profile-wrapper img {
+  border-radius: 50%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
